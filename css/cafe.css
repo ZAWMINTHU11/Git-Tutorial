@@ -1,0 +1,156 @@
+/* Navbar style */
+.nav-bar{
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+.nav-title{
+  padding-top: 10px;
+}
+
+.nav-link-group{
+  padding : 20px;
+  border: 1px solid #dfdfdf;
+  border-radius: 50px;
+}
+
+.nav-link-group > .link {
+  text-decoration: none;
+}
+
+.menu-icon{
+  border : 1px solid #dfdfdf;
+  width : 60px;
+  height : 60px;
+  border-radius: 50%;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+/* Section */
+
+.section{
+  margin-bottom: 20px;
+}
+
+.section-title-group{
+  padding: 80px 40px 0 40px;
+}
+
+.section-title-group > h2{
+  margin-bottom: 4px;
+}
+
+.section-right-container{
+  padding: 16px 40px;
+}
+
+.section-right-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.section-coffee-image{
+  width: 120px;
+}
+
+.button{
+  border: 1px solid #dfdfdf;
+  width: 200px;
+  height : 50px;
+  border-radius: 50px;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 0 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Coffee lists style */
+
+.coffee-card-container{
+  margin-bottom: 20px;
+}
+
+.coffee-card-img{
+  min-height: 320px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.coffee-card-img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.coffee-card-text-container{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 28px;
+  padding-right: 28px;
+  text-align: center;
+}
+
+.card-title{
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+.coffee-card-first-img {
+  background-image: url("../images/matcha-latte-img.jpg");
+}
+
+.coffee-card-second-img{
+  background-image: url("../images/expresso-img\'\ \(1\).jpg");
+}
+
+.coffee-card-third-img{
+  background-image: url("../images/Iced_Americano.jpg");
+}
+
+.coffee-card-fourth-img{
+  background-image: url("../images/1200px-Cappuccino_at_Sightglass_Coffee.jpg");
+}
+
+/* Feature Section : Style */ 
+
+.coffee-feature-container{
+  margin-bottom: 20px;
+}
+
+.coffe-feature-text{
+  padding: 30px;
+}
+
+.event-container{
+  border: 1px solid #652a0e;
+  border-radius: 40px;
+  padding: 20px;
+  width: 300px;
+  background-color: #652a0e;
+}
+
+.event-click{
+  text-decoration: none;
+  text-align: center;
+}
+
+.feature-coffee-image {
+  min-height: 220px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  background-image: url("../images/feature-coffee-img.png");
+}
+
+.footer{
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.footer > p{
+  opacity: 0.5;
+}

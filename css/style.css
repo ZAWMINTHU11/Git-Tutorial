@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Bitter;
+}
+
+/* Container Style*/
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.margin-bottom-16px{
+  margin-bottom: 16px;
+}
+.margin-bottom-20px{
+  margin-bottom: 20px;
+}
+
+/* Font Style */
+.font-large-title{
+  font-size: 48px;
+}
+.font-title{
+  font-size: 32px;
+}
+
+.font-body{
+  font-size : 16px;
+}
+
+.font-bold{
+  font-weight: 500;
+}
+
+/* Color */
+
+.color-black{
+  color: black;
+}
+
+.color-blue{
+  color : #1d63af;
+}
+
+.color-white{
+  color: #dfdfdf;
+}
+
+/* display helper */
+
+.items-around-helper{
+  display: flex;
+  justify-content: space-around;
+}
+
+.items-center-helper{
+  display : flex;
+  justify-content : center;
+  align-items: center;
+}
+
+.items-between-helper{
+  display: flex;
+  justify-content: space-between;
+}
